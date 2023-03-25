@@ -1,0 +1,27 @@
+.footer{
+    background-color: #282828;
+    width: 100%;
+    height: 35vh;
+    display: flex;
+}
+
+.f-left{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+    padding-left: 12rem;
+    gap: 1rem;
+    text-align: left;
+    flex: 1 1 auto;
+}
+
+.f-right{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+    padding-right: 12rem;
+    gap: 1rem;
+    text-align: right;
+    flex: 1 1 auto;
+    background-color: #282828;
+}
